@@ -1,1 +1,29 @@
+mongodb:
+  host: 173.212.251.245
+  port: 27017
+  database: db_post
+  collection: coll_post
 
+facebook:
+  token: EAAZAGgdusflcBO5CDRjXFsOttKfOjmzOlNXr0NZATBDgIND8bg84BKfLj89MwuYZA3rR91mUWYM47qnT0A79oM84B40qApURR73s6EoLCNY3uohJQLwNaSZB8puXMZCqYXQZBdSNNK3H7QzbtFuPPlpacFaFRKpmQgHe5t7PrcSExTH3dLEco7JHksjKq1yPJhZAmO0haqHUPGmpUp2g6VbwZA3EHBqrgMWODmJmvuSZB0PmMFXSUWzPiBQbn5FR4d4sZD
+  base_url: https://graph.facebook.com/v18.0/
+
+instagram:
+  token: AAZAGgdusflcBO1jlTDroqW2IX47Tg8xVhXnp7OHOxALd7Tj0fc1ZBH81WhodJ9iNUVBPQkcFQRI0sdlZBqMR9orfLYX0ZC3FjvZAY3OaaPrTDfhakKcgWFEsKuTR0xLw4t4cBiAGxUfL9OwhUMzZAr1NZA0VZB3OahRz6mX8TczxmZAAIJbRkR3HorxG3EYAqZC5kMBMVbkbindLXZAfiG4AnsX31Oz38FaeDIozDnzgE1nxFJoy3ZARZBMlPtXIyWXpYwZDZD
+  endpoint: https://graph.facebook.com/v13.0/search
+
+subject:
+  - décès Jacques Chirac'
+  - cat
+  - space
+
+date-range:
+  - 2023-01-01~2023-01-30
+  - 2023-02-01~2023-02-30
+  - 2023-03-01~2023-03-30
+
+model:
+  sentiment-analysis:
+    text:
+      -
+    image:
